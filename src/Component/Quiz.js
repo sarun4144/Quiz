@@ -7,7 +7,7 @@ const Quiz = ()=>{
     return(
         <div className="quiz">
             <h1>{QuestionData[current].question}</h1>
-            <div className="choise">
+            <div className="choices">
                 <button onClick={()=>setSelectChoice}>{QuestionData[current].A}</button>
                 <button onClick={()=>setSelectChoice}>{QuestionData[current].B}</button>
                 <button onClick={()=>setSelectChoice}>{QuestionData[current].C}</button>
